@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  go-k8s:
+    container_name: go-k8s
+    image: 01092002/go-k8s:1.0.0
+    ports:
+      - "8080:8080"

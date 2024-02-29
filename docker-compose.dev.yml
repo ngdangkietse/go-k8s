@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  go-k8s:
+    container_name: go-k8s
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - "8080:8080"
